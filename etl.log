@@ -1,0 +1,87 @@
+2026-06-09 15:03:38,944 - INFO - ==================================================
+2026-06-09 15:03:38,944 - INFO - ETL STARTED
+2026-06-09 15:03:39,043 - INFO - Database connected
+2026-06-09 15:03:39,067 - INFO - Watermark = 2026-06-08 17:35:09
+2026-06-09 15:03:40,117 - INFO - Rows fetched from API = 30
+2026-06-09 15:03:40,138 - INFO - Transform complete
+2026-06-09 15:03:40,142 - INFO - New records to load = 30
+2026-06-09 15:03:40,170 - INFO - Staging loaded with 30 rows
+2026-06-09 15:03:40,174 - INFO - Rows In Staging = 30
+2026-06-09 15:03:40,178 - ERROR - ETL FAILED: column "load_timestamp" of relation "github_issues" does not exist
+LINE 3: ...title, state, created_at, updated_at, user_login, load_times...
+                                                             ^
+
+2026-06-09 15:03:40,178 - INFO - Database connection closed
+2026-06-09 15:46:08,053 - INFO - ==================================================
+2026-06-09 15:46:08,053 - INFO - ETL STARTED
+2026-06-09 15:46:08,173 - INFO - Database connected
+2026-06-09 15:46:08,178 - INFO - Watermark = 2026-06-08 17:35:09
+2026-06-09 15:46:09,467 - INFO - Rows fetched from API = 30
+2026-06-09 15:46:09,479 - INFO - Transform complete
+2026-06-09 15:46:09,483 - INFO - New records to load = 30
+2026-06-09 15:46:09,513 - INFO - Staging loaded with 30 rows
+2026-06-09 15:46:09,513 - INFO - Rows In Staging = 30
+2026-06-09 15:46:09,515 - ERROR - ETL FAILED: syntax error at end of input
+LINE 13:     
+             ^
+
+2026-06-09 15:46:09,515 - INFO - Database connection closed
+2026-06-09 15:46:26,670 - INFO - ==================================================
+2026-06-09 15:46:26,670 - INFO - ETL STARTED
+2026-06-09 15:46:26,790 - INFO - Database connected
+2026-06-09 15:46:26,795 - INFO - Watermark = 2026-06-08 17:35:09
+2026-06-09 15:46:27,419 - INFO - Rows fetched from API = 30
+2026-06-09 15:46:27,434 - INFO - Transform complete
+2026-06-09 15:46:27,440 - INFO - New records to load = 30
+2026-06-09 15:46:27,469 - INFO - Staging loaded with 30 rows
+2026-06-09 15:46:27,470 - INFO - Rows In Staging = 30
+2026-06-09 15:46:27,471 - ERROR - ETL FAILED: column "load_timestamp" of relation "github_issues" does not exist
+LINE 3: ...title, state, created_at, updated_at, user_login, load_times...
+                                                             ^
+
+2026-06-09 15:46:27,472 - INFO - Database connection closed
+2026-06-09 15:47:06,761 - INFO - ==================================================
+2026-06-09 15:47:06,762 - INFO - ETL STARTED
+2026-06-09 15:47:06,868 - INFO - Database connected
+2026-06-09 15:47:06,871 - INFO - Watermark = 2026-06-08 17:35:09
+2026-06-09 15:47:07,645 - INFO - Rows fetched from API = 30
+2026-06-09 15:47:07,661 - INFO - Transform complete
+2026-06-09 15:47:07,665 - INFO - New records to load = 30
+2026-06-09 15:47:07,691 - INFO - Staging loaded with 30 rows
+2026-06-09 15:47:07,692 - INFO - Rows In Staging = 30
+2026-06-09 15:47:07,725 - INFO - Final table loaded (UPSERT complete)
+2026-06-09 15:47:07,732 - INFO - Watermark updated to 2026-06-09 10:16:16
+2026-06-09 15:47:07,733 - INFO - Max Updated Date = 2026-06-09 10:16:16
+2026-06-09 15:47:07,733 - INFO - ETL COMPLETED SUCCESSFULLY
+2026-06-09 15:47:07,733 - INFO - ==================================================
+2026-06-09 15:47:07,733 - INFO - Database connection closed
+2026-06-09 15:50:52,400 - INFO - ==================================================
+2026-06-09 15:50:52,400 - INFO - ETL STARTED
+2026-06-09 15:50:52,500 - INFO - Database connected
+2026-06-09 15:50:52,502 - INFO - Watermark = 2026-06-09 10:16:16
+2026-06-09 15:50:53,764 - INFO - Rows fetched from API = 30
+2026-06-09 15:50:53,778 - INFO - Transform complete
+2026-06-09 15:50:53,797 - INFO - New records to load = 2
+2026-06-09 15:50:53,814 - INFO - Staging loaded with 2 rows
+2026-06-09 15:50:53,814 - INFO - Rows In Staging = 2
+2026-06-09 15:50:53,817 - INFO - Final table loaded (UPSERT complete)
+2026-06-09 15:50:53,821 - INFO - Watermark updated to 2026-06-09 10:18:27
+2026-06-09 15:50:53,821 - INFO - Max Updated Date = 2026-06-09 10:18:27
+2026-06-09 15:50:53,821 - INFO - ETL COMPLETED SUCCESSFULLY
+2026-06-09 15:50:53,821 - INFO - ==================================================
+2026-06-09 15:50:53,821 - INFO - Database connection closed
+2026-06-09 16:56:35,061 - INFO - ==================================================
+2026-06-09 16:56:35,062 - INFO - ETL STARTED
+2026-06-09 16:56:35,168 - INFO - Database connected
+2026-06-09 16:56:35,171 - INFO - Watermark = 2026-06-09 10:18:27
+2026-06-09 16:56:36,583 - INFO - Rows fetched from API = 30
+2026-06-09 16:56:36,595 - INFO - Transform complete
+2026-06-09 16:56:36,599 - INFO - New records to load = 6
+2026-06-09 16:56:36,618 - INFO - Staging loaded with 6 rows
+2026-06-09 16:56:36,619 - INFO - Rows In Staging = 6
+2026-06-09 16:56:36,635 - INFO - Final table loaded (UPSERT complete)
+2026-06-09 16:56:36,639 - INFO - Watermark updated to 2026-06-09 11:25:45
+2026-06-09 16:56:36,639 - INFO - Max Updated Date = 2026-06-09 11:25:45
+2026-06-09 16:56:36,639 - INFO - ETL COMPLETED SUCCESSFULLY
+2026-06-09 16:56:36,639 - INFO - ==================================================
+2026-06-09 16:56:36,639 - INFO - Database connection closed
