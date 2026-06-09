@@ -8,7 +8,7 @@ come back to it for any future project.
 
 ## The Problem Statement (What We Were Asked to Do)
 
-> "Fetch GitHub issues from the Microsoft VSCode repository and store them in a
+> "Fetch GitHub issues from the API and store them in a
 > PostgreSQL database. The pipeline should be incremental — meaning each run should
 > only load new or updated issues, not reload everything from scratch."
 
